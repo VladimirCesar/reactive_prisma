@@ -1,0 +1,326 @@
+export const AgGridReactLocaleRu = {
+    // Set Filter
+    selectAll: '(Выбрать все)',
+    selectAllSearchResults: '(Выбрать все результаты поиска)',
+    searchOoo: 'Поиск...',
+    blanks: '(Пусто)',
+    noMatches: 'Нет совпадений',
+  
+    // Number Filter & Text Filter
+    filterOoo: 'Фильтр...',
+    equals: 'Равно',
+    notEqual: 'Не равно',
+    blank: 'Заполненно',
+    notBlank: 'Не заполненно',
+    empty: 'Пусто',
+  
+    // Number Filter
+    lessThan: 'Меньше',
+    greaterThan: 'Больше',
+    lessThanOrEqual: 'Меньше или равно',
+    greaterThanOrEqual: 'Больше или равно',
+    inRange: 'В диапазоне',
+    inRangeStart: 'от',
+    inRangeEnd: 'до',
+  
+    // Text Filter
+    contains: 'Содержит',
+    notContains: 'Не содержит',
+    startsWith: 'Начинается с',
+    endsWith: 'Заканчивается на',
+  
+    // Date Filter
+    dateFormatOoo: 'год-месяц-день',
+  
+    // Filter Conditions
+    andCondition: 'И',
+    orCondition: 'ИЛИ',
+  
+    // Filter Buttons
+    applyFilter: 'Применить',
+    resetFilter: 'Сбросить',
+    clearFilter: 'Очистить',
+    cancelFilter: 'Отмена',
+  
+    // Filter Titles
+    textFilter: 'Текстовый фильтр',
+    numberFilter: 'Числовой фильтр',
+    dateFilter: 'Фильтр по дате',
+    setFilter: 'Установить фильтр',
+  
+    // Side Bar
+    columns: 'Колонки',
+    filters: 'Фильтры',
+  
+    // columns tool panel
+    pivotMode: 'Поменять направление таблицы', //'Pivot Mode'
+    groups: 'Группы строк',
+    rowGroupColumnsEmptyMessage: 'Перетащите сюда для группировки строк',
+    values: 'Значения',
+    valueColumnsEmptyMessage: 'Перетащите сюда для агрегации',
+    pivots: 'Наименования колонок',
+    pivotColumnsEmptyMessage: 'Перетащите сюда для установки меток столбцов',
+  
+    // Header of the Default Group Column
+    group: 'Группа',
+  
+    // Row Drag
+    rowDragRows: 'Строка',
+  
+    // Other
+    loadingOoo: 'Загрузка...',
+    noRowsToShow: 'Нет строк для отображения',
+    enabled: 'Включено',
+  
+    // Menu
+    pinColumn: 'Закрепить столбец',
+    pinLeft: 'Закрепить слева',
+    pinRight: 'Закрепить справа',
+    noPin: 'Не закреплять',
+    valueAggregation: 'Агрегация значений',
+    autosizeThiscolumn: 'Автоматический размер столбца',
+    autosizeAllColumns: 'Автоматический размер всех столбцов',
+    groupBy: 'Группировать по',
+    ungroupBy: 'Разгруппировать по',
+    addToValues: 'Добавить ${переменную} к значению',
+    removeFromValues: 'Удалить ${переменную} из значения',
+    addToLabels: 'Добавить ${переменную} к меткам',
+    removeFromLabels: 'Удалить ${переменную} из метки',
+    resetColumns: 'Сбросить столбцы',
+    expandAll: 'Развернуть все',
+    collapseAll: 'Свернуть все',
+    copy: 'Копировать',
+    ctrlC: 'Ctrl+C',
+    copyWithHeaders: 'Копировать с заголовками',
+    copyWithGroupHeaders: 'Копировать с заголовками групп',
+    paste: 'Вставить',
+    ctrlV: 'Ctrl+V',
+    export: 'Экспорт',
+    csvExport: 'CSV экспорт',
+    excelExport: 'Excel экспорт',
+  
+    // Enterprise Menu Aggregation and Status Bar
+    sum: 'Сумма',
+    min: 'Минимум',
+    max: 'Максимум',
+    none: 'Нет',
+    count: 'Количество',
+    avg: 'Среднее',
+    filteredRows: 'Отфильтрованные',
+    selectedRows: 'Выбранные',
+    totalRows: 'Всего строк',
+    totalAndFilteredRows: 'Строки',
+    more: 'Больше',
+    to: 'к',
+    of: 'от',
+    page: 'Страница',
+    nextPage: 'Следующая страница',
+    lastPage: 'Последняя страница',
+    firstPage: 'Первая страница',
+    previousPage: 'Предыдущая страница',
+  
+    // Pivoting
+    pivotColumnGroupTotals: 'Итоги',
+  
+    // Enterprise Menu (Charts)
+    pivotChartAndPivotMode: 'Сводная диаграмма и смена направления таблицы',
+    pivotChart: 'Сводная диаграмма',
+    chartRange: 'Диапазон диаграммы',
+  
+    columnChart: 'Колонка',
+    groupedColumn: 'Сгруппированные',
+    stackedColumn: 'Stacked',
+    normalizedColumn: '100% Stacked',
+  
+    barChart: 'Bar',
+    groupedBar: 'Grouped',
+    stackedBar: 'Уложенные', //Stacked 
+    normalizedBar: '100% Уложенные',
+  
+    pieChart: 'Круговая диаграмма',
+    pie: 'Круговая',
+    doughnut: 'Кольцевая',
+  
+    line: 'Линия',
+  
+    xyChart: 'X Y (Точечная диаграмма)',
+    scatter: 'Точечная диаграмма',
+    bubble: 'Пузырьковая диаграмма',
+  
+    areaChart: 'Область',
+    area: 'Область',
+    stackedArea: 'Уложенные',
+    normalizedArea: '100% Уложенные',
+  
+    histogramChart: 'Гистограмма',
+  
+    combinationChart: 'Комбинация',
+    columnLineCombo: 'Колонка + Линия',
+    AreaColumnCombo: 'Область + Колонка',
+  
+    // Charts
+    pivotChartTitle: 'Сводная диаграмма',
+    rangeChartTitle: 'Диаграмма диапазона',
+    settings: 'Настройки',
+    data: 'Данные',
+    format: 'Формат',
+    categories: 'Категории',
+    defaultCategory: '(Нет)',
+    series: 'Серии',
+    xyValues: 'X Y значения',
+    paired: 'Парный режим',
+    axis: 'Ось',
+    navigator: 'Навигатор',
+    color: 'Цвет',
+    thickness: 'Толщина',
+    xType: 'X тип',
+    automatic: 'Автоматически',
+    category: 'Категория',
+    number: 'Число',
+    time: 'Время',
+    autoRotate: 'Авто поворот',
+    xRotation: 'X поворот',
+    yRotation: 'Y поворот',
+    ticks: 'Тиковый график',
+    width: 'Ширина',
+    height: 'Высота',
+    length: 'Длина',
+    padding: 'Отступ',
+    spacing: 'Расстояние',
+    chart: 'Диаграмма',
+    title: 'Заголовок',
+    titlePlaceholder: 'Название диаграммы — дважды щелкните, чтобы изменить',
+    background: 'Фон',
+    font: 'Шрифт',
+    top: 'Верх',
+    right: 'Право',
+    bottom: 'Низ',
+    left: 'Лево',
+    labels: 'Метки',
+    size: 'Размер',
+    minSize: 'Минимальный размер',
+    maxSize: 'Максимальный размер',
+    legend: 'Легенда',
+    position: 'Позиция',
+    markerSize: 'Размер маркера',
+    markerStroke: 'Толщина маркера',
+    markerPadding: 'Отступ маркера',
+    itemSpacing: 'Расстояние между элементами',
+    itemPaddingX: 'Заполнение элемента X', //Item Padding
+    itemPaddingY: 'Заполнение элемента Y',
+    layoutHorizontalSpacing: 'Горизонтальное расстояние',
+    layoutVerticalSpacing: 'Вертикальное расстояние',
+    strokeWidth: 'Толщина линии',
+    lineDash: 'Линия пунктиром',
+    offset: 'Смещение',
+    offsets: 'Смещения',
+    tooltips: 'Подсказки',
+    callout: 'Выноска',
+    markers: 'Маркеры',
+    shadow: 'Тень',
+    blur: 'Размытие',
+    xOffset: 'X смещение',
+    yOffset: 'Y смещение',
+    lineWidth: 'Толщина линии',
+    normal: 'Нормальный',
+    bold: 'Полужирный',
+    italic: 'Курсив',
+    boldItalic: 'Полужирный курсив',
+    predefined: 'Предопределенный',
+    fillOpacity: 'Непрозрачность заливки',
+    strokeOpacity: 'Непрозрачность линии',
+    histogramBinCount: 'Количество столбцов',
+    columnGroup: 'Колонка',
+    barGroup: 'Столбчатая',
+    pieGroup: 'Круговая',
+    lineGroup: 'Линейная',
+    scatterGroup: 'X Y (Scatter)',
+    areaGroup: 'Областная',
+    histogramGroup: 'Гистограмма',
+    combinationGroup: 'Комбинация',
+    groupedColumnTooltip: 'Сгруппированный',
+    stackedColumnTooltip: 'Уложенный',
+    normalizedColumnTooltip: '100% Уложенный',
+    groupedBarTooltip: 'Сгруппированный',
+    stackedBarTooltip: 'Уложенный',
+    normalizedBarTooltip: '100% Уложенный',
+    pieTooltip: 'Круговая',
+    doughnutTooltip: 'Кольцевая',
+    lineTooltip: 'Линейная',
+    groupedAreaTooltip: 'Областная',
+    stackedAreaTooltip: 'Уложенный',
+    normalizedAreaTooltip: '100% Уложенный',
+    scatterTooltip: 'Scatter',
+    bubbleTooltip: 'Пузырьковая',
+    histogramTooltip: 'Гистограмма',
+    columnLineComboTooltip: 'Колонка + Линия',
+    areaColumnComboTooltip: 'Область + Колонка',
+    customComboTooltip: 'Пользовательский',
+    noDataToChart: 'Нет данных для построения графика.',
+    pivotChartRequiresPivotMode: 'Для сводной диаграммы требуется включить режим сводки.',
+    chartSettingsToolbarTooltip: 'Меню',
+    chartLinkToolbarTooltip: 'Ссылка на график',
+    chartUnlinkToolbarTooltip: 'Удалить ссылку на график',
+    chartDownloadToolbarTooltip: 'Скачать график',
+    seriesChartType: 'Тип диаграммы серии',
+    seriesType: 'Тип серии',
+    secondaryAxis: 'Вторичная ось',
+  
+    // ARIA
+    ariaChecked: 'проверено', // Checked
+    ariaColumn: 'Колонка',
+    ariaColumnGroup: 'Группа колонок',
+    ariaColumnList: 'Список колонок',
+    ariaColumnSelectAll: 'Переключатель выбора всех колонки',
+    ariaDateFilterInput: 'Ввод фильтра даты',
+    ariaDefaultListName: 'Список',
+    ariaFilterColumnsInput: 'Ввод фильтра колонок',
+    ariaFilterFromValue: 'Фильтр от значения',
+    ariaFilterInput: 'Ввод фильтра',
+    ariaFilterList: 'Список фильтров',
+    ariaFilterToValue: 'Фильтр по значению',
+    ariaFilterValue: 'Значение фильтра',
+    ariaFilteringOperator: 'Оператор фильтрации',
+    ariaHidden: 'скрыто', // Hidden
+    ariaIndeterminate: 'неопределенный', // Indeterminate
+    ariaInputEditor: 'Редактор ввода',
+    ariaMenuColumn: 'Нажмите CTRL ENTER для открытия меню колонки.',
+    ariaRowDeselect: 'Нажмите SPACE для отмены выбора строки',
+    ariaRowSelectAll: 'Нажмите Space для переключения всех выбранных строк',
+    ariaRowToggleSelection: 'Нажмите Space для переключения выбранной строки',
+    ariaRowSelect: 'Нажмите SPACE для выбора строки',
+    ariaSearch: 'Поиск',
+    ariaSortableColumn: 'Нажмите ENTER для сортировки колонки',
+    ariaToggleVisibility: 'Нажмите SPACE для переключения видимости',
+    ariaUnchecked: 'не проверено', // Unchecked
+    ariaVisible: 'видимый', // Visible
+    ariaSearchFilterValues: 'Значения фильтра поиска',
+  
+    // ARIA Labels for Drop Zones
+  
+    ariaRowGroupDropZonePanelLabel: 'Группы строк',
+    ariaValuesDropZonePanelLabel: 'Значения',
+    ariaPivotDropZonePanelLabel: 'Метки столбцов',
+    ariaDropZoneColumnComponentDescription: 'Нажмите DELETE для удаления',
+    ariaDropZoneColumnValueItemDescription:
+      'Нажмите ENTER для изменения типа агрегации',
+    ariaDropZoneColumnGroupItemDescription: 'Нажмите ENTER для сортировки',
+    // used for aggregate drop zone, format: {aggregation}{ariaDropZoneColumnComponentAggFuncSeperator}{column name}
+    ariaDropZoneColumnComponentAggFuncSeperator: ' от ',
+    ariaDropZoneColumnComponentSortAscending: 'восходящий',
+    ariaDropZoneColumnComponentSortDescending: 'нисходящий',
+  
+    // ARIA Labels for Dialogs
+    ariaLabelColumnMenu: 'Меню колонки',
+    ariaLabelCellEditor: 'Редактор ячейки',
+    ariaLabelDialog: 'Диалоговое окно',
+    ariaLabelSelectField: 'Выбрать поле',
+    ariaLabelTooltip: 'Подсказка',
+    ariaLabelContextMenu: 'Контекстное меню',
+    ariaLabelSubMenu: 'Подменю',
+    ariaLabelAggregationFunction: 'Функция агрегации',
+  
+    // Number Format (Status Bar, Pagination Panel)
+    thousandSeparator: ',',
+    decimalSeparator: '.',
+  };
